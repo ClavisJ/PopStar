@@ -7,6 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2402DE84197F527A00E97EFE /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2402DE83197F527A00E97EFE /* GameViewController.m */; };
+		2402DE87197F5AEA00E97EFE /* Tool.m in Sources */ = {isa = PBXBuildFile; fileRef = 2402DE86197F5AEA00E97EFE /* Tool.m */; };
+		2423BD03197E5DCB0091E839 /* CandyUI.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2423BD02197E5DCB0091E839 /* CandyUI.plist */; };
+		245A4A2C197FE6BB00D817A1 /* breakgrass6.wav in Resources */ = {isa = PBXBuildFile; fileRef = 245A4A2B197FE6BB00D817A1 /* breakgrass6.wav */; };
+		24602B3D197D35DC002FB37B /* TransitionPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 24602B3C197D35DC002FB37B /* TransitionPageView.m */; };
+		24602B40197D4B63002FB37B /* NewGame.png in Resources */ = {isa = PBXBuildFile; fileRef = 24602B3E197D4B63002FB37B /* NewGame.png */; };
+		24602B41197D4B63002FB37B /* Resume.png in Resources */ = {isa = PBXBuildFile; fileRef = 24602B3F197D4B63002FB37B /* Resume.png */; };
+		2464C3DB1980859700E0FDBC /* 鞭炮音效.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2464C3D91980859700E0FDBC /* 鞭炮音效.wav */; };
+		2464C3DC1980859700E0FDBC /* 礼花音效.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2464C3DA1980859700E0FDBC /* 礼花音效.wav */; };
+		2464C3DE198085A000E0FDBC /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2464C3DD198085A000E0FDBC /* Icon@2x.png */; };
+		247202C719792970006F8915 /* item1.png in Resources */ = {isa = PBXBuildFile; fileRef = 247202C219792970006F8915 /* item1.png */; };
+		247202C819792970006F8915 /* item2.png in Resources */ = {isa = PBXBuildFile; fileRef = 247202C319792970006F8915 /* item2.png */; };
+		247202C919792970006F8915 /* item3.png in Resources */ = {isa = PBXBuildFile; fileRef = 247202C419792970006F8915 /* item3.png */; };
+		247202CA19792970006F8915 /* item4.png in Resources */ = {isa = PBXBuildFile; fileRef = 247202C519792970006F8915 /* item4.png */; };
+		247202CB19792970006F8915 /* item5.png in Resources */ = {isa = PBXBuildFile; fileRef = 247202C619792970006F8915 /* item5.png */; };
+		247202CE19792C53006F8915 /* StarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 247202CD19792C53006F8915 /* StarButton.m */; };
 		2493332119767A4000DEC49D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2493332019767A4000DEC49D /* Foundation.framework */; };
 		2493332319767A4000DEC49D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2493332219767A4000DEC49D /* CoreGraphics.framework */; };
 		2493332519767A4000DEC49D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2493332419767A4000DEC49D /* UIKit.framework */; };
@@ -24,21 +40,9 @@
 		2493336619767CD900DEC49D /* 背景.png in Resources */ = {isa = PBXBuildFile; fileRef = 2493335319767CD900DEC49D /* 背景.png */; };
 		2493336719767CD900DEC49D /* 背景A.png in Resources */ = {isa = PBXBuildFile; fileRef = 2493335419767CD900DEC49D /* 背景A.png */; };
 		2493336819767CD900DEC49D /* 失败.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2493335619767CD900DEC49D /* 失败.caf */; };
-		2493336919767CD900DEC49D /* 失败预告.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2493335719767CD900DEC49D /* 失败预告.caf */; };
-		2493336A19767CD900DEC49D /* 拉动.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2493335819767CD900DEC49D /* 拉动.caf */; };
-		2493336B19767CD900DEC49D /* 掉下.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2493335919767CD900DEC49D /* 掉下.caf */; };
 		2493336C19767CD900DEC49D /* 炸.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2493335A19767CD900DEC49D /* 炸.caf */; };
-		2493336D19767CD900DEC49D /* 炸1.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2493335B19767CD900DEC49D /* 炸1.caf */; };
-		2493336E19767CD900DEC49D /* 炸2.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2493335C19767CD900DEC49D /* 炸2.caf */; };
-		2493336F19767CD900DEC49D /* 炸3.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2493335D19767CD900DEC49D /* 炸3.caf */; };
-		2493337019767CD900DEC49D /* 炸4.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2493335E19767CD900DEC49D /* 炸4.caf */; };
-		2493337119767CD900DEC49D /* 炸5.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2493335F19767CD900DEC49D /* 炸5.caf */; };
-		2493337219767CD900DEC49D /* 炸6.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2493336019767CD900DEC49D /* 炸6.caf */; };
-		2493337319767CD900DEC49D /* 炸7.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2493336119767CD900DEC49D /* 炸7.caf */; };
 		2493337419767CD900DEC49D /* 触发人音.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2493336219767CD900DEC49D /* 触发人音.caf */; };
-		2493337519767CD900DEC49D /* 钻石掉落.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2493336319767CD900DEC49D /* 钻石掉落.caf */; };
 		2493337819767DF700DEC49D /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2493337719767DF700DEC49D /* MainViewController.m */; };
-		2493337B19767E4900DEC49D /* MenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2493337A19767E4900DEC49D /* MenuView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +56,26 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2402DE82197F527A00E97EFE /* GameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		2402DE83197F527A00E97EFE /* GameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		2402DE85197F5AEA00E97EFE /* Tool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tool.h; sourceTree = "<group>"; };
+		2402DE86197F5AEA00E97EFE /* Tool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tool.m; sourceTree = "<group>"; };
+		2423BD02197E5DCB0091E839 /* CandyUI.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = CandyUI.plist; sourceTree = "<group>"; };
+		245A4A2B197FE6BB00D817A1 /* breakgrass6.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = breakgrass6.wav; sourceTree = "<group>"; };
+		24602B3B197D35DC002FB37B /* TransitionPageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransitionPageView.h; sourceTree = "<group>"; };
+		24602B3C197D35DC002FB37B /* TransitionPageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransitionPageView.m; sourceTree = "<group>"; };
+		24602B3E197D4B63002FB37B /* NewGame.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NewGame.png; sourceTree = "<group>"; };
+		24602B3F197D4B63002FB37B /* Resume.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Resume.png; sourceTree = "<group>"; };
+		2464C3D91980859700E0FDBC /* 鞭炮音效.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "鞭炮音效.wav"; sourceTree = "<group>"; };
+		2464C3DA1980859700E0FDBC /* 礼花音效.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "礼花音效.wav"; sourceTree = "<group>"; };
+		2464C3DD198085A000E0FDBC /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		247202C219792970006F8915 /* item1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = item1.png; sourceTree = "<group>"; };
+		247202C319792970006F8915 /* item2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = item2.png; sourceTree = "<group>"; };
+		247202C419792970006F8915 /* item3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = item3.png; sourceTree = "<group>"; };
+		247202C519792970006F8915 /* item4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = item4.png; sourceTree = "<group>"; };
+		247202C619792970006F8915 /* item5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = item5.png; sourceTree = "<group>"; };
+		247202CC19792C53006F8915 /* StarButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StarButton.h; sourceTree = "<group>"; };
+		247202CD19792C53006F8915 /* StarButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StarButton.m; sourceTree = "<group>"; };
 		2493331D19767A4000DEC49D /* PopStar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PopStar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2493332019767A4000DEC49D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		2493332219767A4000DEC49D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -73,23 +97,10 @@
 		2493335319767CD900DEC49D /* 背景.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "背景.png"; sourceTree = "<group>"; };
 		2493335419767CD900DEC49D /* 背景A.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "背景A.png"; sourceTree = "<group>"; };
 		2493335619767CD900DEC49D /* 失败.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "失败.caf"; sourceTree = "<group>"; };
-		2493335719767CD900DEC49D /* 失败预告.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "失败预告.caf"; sourceTree = "<group>"; };
-		2493335819767CD900DEC49D /* 拉动.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "拉动.caf"; sourceTree = "<group>"; };
-		2493335919767CD900DEC49D /* 掉下.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "掉下.caf"; sourceTree = "<group>"; };
 		2493335A19767CD900DEC49D /* 炸.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "炸.caf"; sourceTree = "<group>"; };
-		2493335B19767CD900DEC49D /* 炸1.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "炸1.caf"; sourceTree = "<group>"; };
-		2493335C19767CD900DEC49D /* 炸2.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "炸2.caf"; sourceTree = "<group>"; };
-		2493335D19767CD900DEC49D /* 炸3.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "炸3.caf"; sourceTree = "<group>"; };
-		2493335E19767CD900DEC49D /* 炸4.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "炸4.caf"; sourceTree = "<group>"; };
-		2493335F19767CD900DEC49D /* 炸5.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "炸5.caf"; sourceTree = "<group>"; };
-		2493336019767CD900DEC49D /* 炸6.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "炸6.caf"; sourceTree = "<group>"; };
-		2493336119767CD900DEC49D /* 炸7.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "炸7.caf"; sourceTree = "<group>"; };
 		2493336219767CD900DEC49D /* 触发人音.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "触发人音.caf"; sourceTree = "<group>"; };
-		2493336319767CD900DEC49D /* 钻石掉落.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "钻石掉落.caf"; sourceTree = "<group>"; };
 		2493337619767DF700DEC49D /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		2493337719767DF700DEC49D /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
-		2493337919767E4900DEC49D /* MenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuView.h; sourceTree = "<group>"; };
-		2493337A19767E4900DEC49D /* MenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,8 +165,14 @@
 				2493333019767A4000DEC49D /* AppDelegate.m */,
 				2493337619767DF700DEC49D /* MainViewController.h */,
 				2493337719767DF700DEC49D /* MainViewController.m */,
-				2493337919767E4900DEC49D /* MenuView.h */,
-				2493337A19767E4900DEC49D /* MenuView.m */,
+				24602B3B197D35DC002FB37B /* TransitionPageView.h */,
+				24602B3C197D35DC002FB37B /* TransitionPageView.m */,
+				2402DE82197F527A00E97EFE /* GameViewController.h */,
+				2402DE83197F527A00E97EFE /* GameViewController.m */,
+				247202CC19792C53006F8915 /* StarButton.h */,
+				247202CD19792C53006F8915 /* StarButton.m */,
+				2402DE85197F5AEA00E97EFE /* Tool.h */,
+				2402DE86197F5AEA00E97EFE /* Tool.m */,
 				2493333219767A4000DEC49D /* Images.xcassets */,
 				2493332719767A4000DEC49D /* Supporting Files */,
 			);
@@ -194,6 +211,7 @@
 		2493334F19767CD900DEC49D /* 游戏资源 */ = {
 			isa = PBXGroup;
 			children = (
+				2423BD02197E5DCB0091E839 /* CandyUI.plist */,
 				2493335019767CD900DEC49D /* 图片 */,
 				2493335519767CD900DEC49D /* 音效 */,
 			);
@@ -203,6 +221,14 @@
 		2493335019767CD900DEC49D /* 图片 */ = {
 			isa = PBXGroup;
 			children = (
+				2464C3DD198085A000E0FDBC /* Icon@2x.png */,
+				24602B3E197D4B63002FB37B /* NewGame.png */,
+				24602B3F197D4B63002FB37B /* Resume.png */,
+				247202C219792970006F8915 /* item1.png */,
+				247202C319792970006F8915 /* item2.png */,
+				247202C419792970006F8915 /* item3.png */,
+				247202C519792970006F8915 /* item4.png */,
+				247202C619792970006F8915 /* item5.png */,
 				2493335119767CD900DEC49D /* CandyUI.png */,
 				2493335219767CD900DEC49D /* pop.png */,
 				2493335319767CD900DEC49D /* 背景.png */,
@@ -214,20 +240,12 @@
 		2493335519767CD900DEC49D /* 音效 */ = {
 			isa = PBXGroup;
 			children = (
+				2464C3D91980859700E0FDBC /* 鞭炮音效.wav */,
+				2464C3DA1980859700E0FDBC /* 礼花音效.wav */,
+				245A4A2B197FE6BB00D817A1 /* breakgrass6.wav */,
 				2493335619767CD900DEC49D /* 失败.caf */,
-				2493335719767CD900DEC49D /* 失败预告.caf */,
-				2493335819767CD900DEC49D /* 拉动.caf */,
-				2493335919767CD900DEC49D /* 掉下.caf */,
 				2493335A19767CD900DEC49D /* 炸.caf */,
-				2493335B19767CD900DEC49D /* 炸1.caf */,
-				2493335C19767CD900DEC49D /* 炸2.caf */,
-				2493335D19767CD900DEC49D /* 炸3.caf */,
-				2493335E19767CD900DEC49D /* 炸4.caf */,
-				2493335F19767CD900DEC49D /* 炸5.caf */,
-				2493336019767CD900DEC49D /* 炸6.caf */,
-				2493336119767CD900DEC49D /* 炸7.caf */,
 				2493336219767CD900DEC49D /* 触发人音.caf */,
-				2493336319767CD900DEC49D /* 钻石掉落.caf */,
 			);
 			path = "音效";
 			sourceTree = "<group>";
@@ -307,26 +325,27 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2493337019767CD900DEC49D /* 炸4.caf in Resources */,
-				2493336E19767CD900DEC49D /* 炸2.caf in Resources */,
+				24602B41197D4B63002FB37B /* Resume.png in Resources */,
+				247202CB19792970006F8915 /* item5.png in Resources */,
 				2493336C19767CD900DEC49D /* 炸.caf in Resources */,
-				2493336B19767CD900DEC49D /* 掉下.caf in Resources */,
 				2493336719767CD900DEC49D /* 背景A.png in Resources */,
-				2493336D19767CD900DEC49D /* 炸1.caf in Resources */,
-				2493336F19767CD900DEC49D /* 炸3.caf in Resources */,
+				247202C919792970006F8915 /* item3.png in Resources */,
+				247202C819792970006F8915 /* item2.png in Resources */,
+				24602B40197D4B63002FB37B /* NewGame.png in Resources */,
+				2423BD03197E5DCB0091E839 /* CandyUI.plist in Resources */,
 				2493336819767CD900DEC49D /* 失败.caf in Resources */,
+				245A4A2C197FE6BB00D817A1 /* breakgrass6.wav in Resources */,
 				2493336619767CD900DEC49D /* 背景.png in Resources */,
 				2493332B19767A4000DEC49D /* InfoPlist.strings in Resources */,
-				2493336919767CD900DEC49D /* 失败预告.caf in Resources */,
+				2464C3DE198085A000E0FDBC /* Icon@2x.png in Resources */,
+				2464C3DC1980859700E0FDBC /* 礼花音效.wav in Resources */,
+				247202C719792970006F8915 /* item1.png in Resources */,
 				2493337419767CD900DEC49D /* 触发人音.caf in Resources */,
-				2493337119767CD900DEC49D /* 炸5.caf in Resources */,
 				2493336519767CD900DEC49D /* pop.png in Resources */,
-				2493336A19767CD900DEC49D /* 拉动.caf in Resources */,
 				2493336419767CD900DEC49D /* CandyUI.png in Resources */,
-				2493337519767CD900DEC49D /* 钻石掉落.caf in Resources */,
-				2493337319767CD900DEC49D /* 炸7.caf in Resources */,
-				2493337219767CD900DEC49D /* 炸6.caf in Resources */,
 				2493333319767A4000DEC49D /* Images.xcassets in Resources */,
+				2464C3DB1980859700E0FDBC /* 鞭炮音效.wav in Resources */,
+				247202CA19792970006F8915 /* item4.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -345,9 +364,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2402DE84197F527A00E97EFE /* GameViewController.m in Sources */,
 				2493333119767A4000DEC49D /* AppDelegate.m in Sources */,
-				2493337B19767E4900DEC49D /* MenuView.m in Sources */,
+				247202CE19792C53006F8915 /* StarButton.m in Sources */,
 				2493337819767DF700DEC49D /* MainViewController.m in Sources */,
+				2402DE87197F5AEA00E97EFE /* Tool.m in Sources */,
+				24602B3D197D35DC002FB37B /* TransitionPageView.m in Sources */,
 				2493332D19767A4000DEC49D /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -547,6 +569,7 @@
 				2493334B19767A4000DEC49D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2493334C19767A4000DEC49D /* Build configuration list for PBXNativeTarget "PopStarTests" */ = {
 			isa = XCConfigurationList;
@@ -555,6 +578,7 @@
 				2493334E19767A4000DEC49D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

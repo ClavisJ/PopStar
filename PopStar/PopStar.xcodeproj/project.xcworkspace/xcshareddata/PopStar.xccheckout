@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>2A2C47BD-B74E-44DF-9694-A88A5D4880CF</string>
+	<key>IDESourceControlProjectName</key>
+	<string>PopStar</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>B0D3F3EA-49F5-4107-9982-73462051C03D</key>
+		<string>https://github.com/ClavisJ/PopStar.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>PopStar/PopStar.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>B0D3F3EA-49F5-4107-9982-73462051C03D</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/ClavisJ/PopStar.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>B0D3F3EA-49F5-4107-9982-73462051C03D</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>B0D3F3EA-49F5-4107-9982-73462051C03D</string>
+			<key>IDESourceControlWCCName</key>
+			<string>PopStar</string>
+		</dict>
+	</array>
+</dict>
+</plist>
